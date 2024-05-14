@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
-import ExamplePage from "./pages/ExamplePage/ExamplePage";
+import FlightinfoPage from "./pages/ExamplePage/Flightinfo";
 
 export const router = createBrowserRouter([
   {
@@ -8,19 +8,7 @@ export const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "example",
-    element: <ExamplePage />,
+    path: "flights",
+    element: <FlightinfoPage />,
   },
-  // {
-  //   path: "packing",
-  //   element: <PackingList />,
-  // },
-  // {
-  //   path: "flights",
-  //   element: <FlightInfo />,
-  // },
-  // {
-  //   path: "sightseeing",
-  //   element: <Sightseeing />,
-      // },
 ]);

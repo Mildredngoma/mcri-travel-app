@@ -1,5 +1,26 @@
 {
-  "pokemon": [
-    
+  "flights": [
+    {
+      "departureDate": "May 1st",
+      "departureTime":"1300 hours",
+      "departureCity": "Victoria Falls",
+      "departureAirport":"Victoria Falls International airport",
+      "airline":"United Arab Emirates airline",
+      "arrivalDate":"May 7nth",
+      "arrivalTime":"2000 hours",
+      "arrivalCity":"United Arab Emirates",
+      "arrivalAirport":"United Arab Emirates International Airport"
+    },
+    {
+      "departureDate": "May 7nth",
+      "departureTime":"1300 hours",
+      "departureCity": "United Arab Emirates",
+      "departureAirport":"United Arab Emirates International airport",
+      "airline":"United Arab Emirates airline",
+      "arrivalDate":"May 14nth",
+      "arrivalTime":"2000 hours",
+      "arrivalCity":"Bulawayo",
+      "arrivalAirport":"Joshua Mqabuko Nkomo International Airport"
+    }
   ]
 }
